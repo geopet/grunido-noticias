@@ -1,14 +1,30 @@
+GIT
+  remote: git@github.com:geopet/growl.git
+  revision: 022e672a2494aac9c1884b36ed421718ad814377
+  specs:
+    growl (1.0.4)
+
 GEM
   remote: https://rubygems.org/
   specs:
-    growl (1.0.3)
+    curb (0.8.5)
+    feedzirra (0.4.0)
+      curb (~> 0.8.1)
+      loofah (~> 1.2.1)
+      nokogiri (~> 1.6.0)
+      sax-machine (~> 0.2.1)
+    loofah (1.2.1)
+      nokogiri (>= 1.4.4)
     mini_portile (0.5.2)
     nokogiri (1.6.0)
       mini_portile (~> 0.5.0)
+    sax-machine (0.2.1)
+      nokogiri (~> 1.6.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  growl
+  feedzirra
+  growl!
   nokogiri
