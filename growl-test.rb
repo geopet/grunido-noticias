@@ -1,7 +1,11 @@
+require 'rubygems'
+require 'bundler/setup'
+
 require 'growl'
 
-Growl.notify {
-  self.message = "<a href='http://www.google.com'>This is a test!</a>"
-  self.icon = :Safari
-  sticky!
-}
+notify = Growl.new
+notify.title = "Hello, World!"
+notify.message = "This is a message to you!"
+notify.url = "https://google.com"
+
+notify.run
