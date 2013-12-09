@@ -22,4 +22,4 @@ and you'll get those notifications every hour or so.
 2. Provide better user input (i.e., what news source, how many articles, etc.)
 3. Add tests (I don't have a great idea about how to test this yet since it is
    so small and really is just grabbing an rss feed and then showing you the
-   headlines
+   headlines.)
