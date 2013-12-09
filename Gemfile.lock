@@ -1,6 +1,6 @@
 GIT
-  remote: git@github.com:geopet/growl.git
-  revision: 3e2d6a7702c238c0f4fc22224cb010a1d9e392f0
+  remote: git@github.com:visionmedia/growl.git
+  revision: 3ef65560ebf1075efcd08a2b0f9be483455691b3
   specs:
     growl (1.0.4)
 
